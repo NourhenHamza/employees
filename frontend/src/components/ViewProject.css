@@ -1,0 +1,109 @@
+/* General resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base container */
+.project-view-container {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* Header Section */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-section h1 {
+  font-size: 26px;
+  color: #004080;
+}
+
+.close-btn {
+  border: none;
+  padding: 8px 15px;
+  background: #ff6b5f;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+  background: #ff4757;
+}
+
+/* Skills Section */
+.skills-section {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.skill-bar-container {
+  margin: 10px 0;
+}
+
+.progress-bar {
+  height: 12px;
+  background: #dcdcdc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.filled-bar {
+  height: 100%;
+  background-color: #3498db;
+}
+
+/* Employee Grid */
+.employee-section {
+  margin: 10px 0;
+}
+
+.employee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.employee-box {
+  padding: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.employee-box:hover {
+  transform: scale(1.05);
+  background-color: #f0f8ff;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .employee-box {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-section h1 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,207 @@
+/* General Modal Container */
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    max-width: 950px;
+    margin: 50px auto;
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+  
+  .modal-header h3 {
+    font-size: 26px;
+    color: #2c3e50;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .modal-header button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .modal-header button:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+  }
+  
+  /* Employee Assign Section */
+  .employee-section {
+    margin-bottom: 30px;
+  }
+  
+  .employee-section h4 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #34495e;
+    font-weight: 600;
+  }
+  
+  .dropdown-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .dropdown-container label {
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+  
+  .dropdown-container select {
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    transition: border-color 0.3s ease;
+  }
+  
+  .dropdown-container select:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  .dropdown-container button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .dropdown-container button:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+  }
+  
+  /* Assigned Employees Section */
+  .assigned-employees-section {
+    margin-bottom: 30px;
+  }
+  
+  .assigned-employees-section h4 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #34495e;
+    font-weight: 600;
+  }
+  
+  .employees-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+  }
+  
+  .employee-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ecf0f1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .employee-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-card h5 {
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+  }
+  
+  .employee-card p {
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  .employee-card .email {
+    font-size: 12px;
+    color: #95a5a6;
+    margin-top: 5px;
+  }
+  
+  /* Matched Employees Section */
+  .matched-employees-section {
+    margin-bottom: 30px;
+  }
+  
+  .matched-employees-section h4 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #34495e;
+    font-weight: 600;
+  }
+  
+  .matched-employees-section .employees-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+  
+  .employee-card.matched {
+    background-color: #f5f5f5;
+    border: 1px solid #bdc3c7;
+  }
+  
+  .employee-card.matched:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Responsive Media Queries */
+  @media (max-width: 768px) {
+    .modal-container {
+      padding: 20px;
+    }
+  
+    .modal-header h3 {
+      font-size: 22px;
+    }
+  
+    .employees-grid {
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+  
+    .dropdown-container button {
+      width: 100%;
+    }
+  }
+  

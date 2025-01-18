@@ -1,0 +1,159 @@
+/* TakeTest.css */
+.containerr {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f4f7fc;
+}
+
+.opening {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.opening h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.backbtn {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.backbtn:hover {
+  background-color: #004b99;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro1 {
+  width: 50%;
+}
+
+.intro1 p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.startbtn,
+.finishbtn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.startbtn:disabled,
+.finishbtn:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.startbtn:hover {
+  background-color: #218838;
+}
+
+.finishbtn:hover {
+  background-color: #218838;
+}
+
+.intro2 {
+  width: 40%;
+}
+
+.intro2 p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.fullscreenbtn {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.fullscreenbtn:hover {
+  background-color: #e0a800;
+}
+
+.questions {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.questions div {
+  margin-bottom: 20px;
+}
+
+.questions p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.result h2 {
+  font-size: 2rem;
+  color: #28a745;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro1,
+  .intro2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .questions {
+    padding: 15px;
+  }
+}
+<im

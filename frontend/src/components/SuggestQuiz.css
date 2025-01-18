@@ -1,0 +1,199 @@
+.container {
+    padding: 30px;
+  }
+  
+  .starter {
+    display: flex;
+  }
+  
+  .container2 {
+    display: flex;
+  }
+  
+  .container2item {
+    flex: 1;
+    font-size: 17px;
+  
+      margin-left: 39px;
+  
+  }
+  
+  .gobackbtn {
+    cursor: pointer;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(2, 174, 237);
+    font-size: 15px;
+  }
+  
+  .gobackbtn:hover {
+    background-color: rgb(66, 77, 225);
+  }
+  
+  .itemm {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .itempara1 {
+    font-size: 17px;
+  }
+  
+  .iteminput1 {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  
+  .itempara2 {
+    font-size: 17px;
+  }
+  
+  .iteminput2 {
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  
+  .gencodebtn {
+    cursor: pointer;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(19, 113, 185);
+    font-size: 15px;
+  }
+  
+  .gencodebtn:hover {
+    background-color: rgb(133, 157, 236);
+  }
+  
+  .addquesbtn {
+    cursor: pointer;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(98, 142, 230);
+    font-size: 15px;
+  }
+  
+  .addquesbtn:hover {
+    background-color: rgb(25, 105, 176);
+  }
+  
+  .createtestbtn {
+    cursor: pointer;
+    height: 40px;
+    margin-left: 42%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(2, 174, 237);
+    font-size: 15px;
+    width: 200px;
+  }
+  
+  .createtestbtn:hover {
+    background-color: rgb(82, 137, 214);
+  }
+  
+  .quescontainer {
+    margin-top: 25px;
+  }
+  
+  .quesitem {
+    margin-bottom: 20px;
+  }
+  
+  .questxt {
+    height: 50px;
+    width: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .delquesbtn {
+    cursor: pointer;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(241, 131, 131);
+  }
+  
+  .delquesbtn:hover {
+    background-color: rgb(242, 93, 93);
+  }
+  
+  .addopbtn {
+    cursor: pointer;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(238, 163, 14);
+  }
+  
+  .addopbtn:hover {
+    background-color: rgb(204, 179, 16);
+  }
+  
+  .option {
+    margin-left: 50px;
+  }
+  
+  .opinput {
+    height: 40px;
+    width: 400px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .delopbtn {
+    cursor: pointer;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(241, 131, 131);
+  }
+  
+  .delopbtn:hover {
+    background-color: rgb(242, 93, 93);
+  }
+  
+  .imgop {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  
+  .editimgopbtn {
+    cursor: pointer;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(223, 171, 30);
+  }
+  
+  .editimgopbtn:hover {
+    background-color: rgb(165, 127, 31);
+  }
+  
+  .imgtxt {
+    font-size: 18px;
+  }

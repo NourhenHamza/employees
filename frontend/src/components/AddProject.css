@@ -1,0 +1,143 @@
+/* General container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #eef2f7;
+  padding: 10px;
+}
+
+/* Card appearance for the form */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+}
+
+/* Form header */
+.header {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Main form layout */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Section - form fields */
+.formGroup label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formGroup input,
+.formGroup select {
+  padding: 8px 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.formGroup input:focus,
+.formGroup select:focus {
+  border-color: #007bff;
+}
+
+/* Skills Section */
+.skillsContainer {
+  padding: 15px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.skillsContainer h4 {
+  margin-bottom: 10px;
+}
+
+.skillRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.skillRow input {
+  padding: 5px 8px;
+  font-size: 13px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+
+.removeSkill,
+.addSkill {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.removeSkill {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.addSkill {
+  background-color: #3498db;
+  color: white;
+}
+
+.removeSkill:hover {
+  background-color: #c0392b;
+}
+
+.addSkill:hover {
+  background-color: #1f77b4;
+}
+
+/* Form buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submitButton,
+.cancelButton {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.submitButton {
+  background-color: #28a745;
+  color: white;
+}
+
+.cancelButton {
+  background-color: #6c757d;
+  color: white;
+}
+
+.submitButton:hover {
+  background-color: #218838;
+}
+
+.cancelButton:hover {
+  background-color: #555555;
+}

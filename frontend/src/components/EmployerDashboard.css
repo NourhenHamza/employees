@@ -1,0 +1,85 @@
+.dashboard-container {
+    padding: 40px;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px; /* Increased space between header and next section */
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    height: 150px; /* Further increased height for the header */
+  }
+  
+  .section-title {
+    color: #34495e;
+    font-weight: bold;
+  }
+  
+  .icon-button {
+    color: #2980b9;
+  }
+  
+  .avatar {
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .grid-item {
+    margin-bottom: 30px; /* Further increased margin for more space between items */
+  }
+  
+  .stats-card {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    color: #ffffff;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    height: 250px; /* Further increased height for stats cards */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default; /* Prevents pointer cursor on hover */
+  }
+  
+  .stats-card:hover {
+    transform: scale(1.07); /* Slightly more zoomed-in hover effect */
+    cursor: default; /* Ensures cursor stays default on hover */
+  }
+  
+  .paper-action, .paper-footer {
+    padding: 30px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    height: 300px; /* Further increased height for action and footer paper containers */
+  }
+  
+  .styled-button {
+    border-radius: 20px;
+    text-transform: capitalize;
+    padding: 16px 32px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .styled-button + .styled-button {
+    margin-left: 20px; /* Further space between buttons */
+  }
+  
+  .paper-footer {
+    margin-top: 60px; /* Further increased space for footer section */
+  }
+  
+  .grid-container {
+    margin-top: 40px; /* Further added space above the grid container */
+  }
+  

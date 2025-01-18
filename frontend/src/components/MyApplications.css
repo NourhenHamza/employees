@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.applications-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #00796b; /* Deep teal */
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #616161; /* Light grey */
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  width: 100%;
+}
+
+/* Card Styles */
+.custom-card {
+  position: relative;
+  border-radius: 20px; /* More rounded corners */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.project-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00796b; /* Deep teal */
+  margin-bottom: 10px;
+}
+
+.project-dates {
+  color: #757575; /* Slightly lighter gray */
+  margin-bottom: 10px;
+}
+
+.details-btn {
+  margin-top: 20px;
+  background-color: #00796b;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+}
+
+.details-btn:hover {
+  background-color: #004d40;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Status Chip */
+.status-chip {
+  margin-bottom: 15px;
+}
+
+/* Loading and Error Styles */
+.loading-container,
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Alerts */
+.MuiAlert-root {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    font-size: 2rem;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

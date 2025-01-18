@@ -1,0 +1,200 @@
+/* General container */
+.manage-employees-container {
+  font-family: 'Roboto', sans-serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #4da8da;
+  padding-bottom: 0.5rem;
+}
+
+.title {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Employee Section (Applied, Assigned, Matching) */
+.employee-section {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  background-color: #f0f8ff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Wrapper for all employee cards in a section */
+.employee-cards {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  justify-content: flex-start;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Individual Employee Card Styling */
+.employee-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 180px;
+  height: 925px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  margin-bottom: 1.5rem; /* Space between rows */
+}
+
+.employee-card.hidden {
+  display: none;
+}
+
+.employee-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.employee-card h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Centering the employee's avatar image */
+.employee-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block; /* Ensure it's treated as a block element */
+  margin: 0 auto; /* This centers the image */
+  margin-top: 0px; /* Push the image to the top */
+}
+
+/* Center employee card contents */
+.employee-card-details {
+  margin-top: auto;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.employee-card-details p {
+  margin: 1px 0;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  font-size: 1.5rem;
+  color: #00796b;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* No Employees Text */
+.no-employees {
+  color: #999;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+/* Error Message */
+.error-message {
+  color: #d32f2f;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* See More Button */
+.see-more-btn {
+  background-color: #4da8da;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+.see-more-btn:hover {
+  background-color: #357ab7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .employee-card {
+    width: 100%;
+    padding: 1.5rem;
+    height: auto;
+  }
+
+  .employee-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .employee-card h4 {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+}
+
+/* Assign Button Style */
+.btn-assign {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn-assign:hover {
+  background-color: #004d40;
+}
+
+.employee-card-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}

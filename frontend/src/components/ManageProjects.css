@@ -1,0 +1,118 @@
+/* General container */
+.manage-projects-container {
+  font-family: 'Arial', sans-serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  min-height: 100vh;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #4da8da;
+  padding-bottom: 0.5rem;
+}
+
+.title {
+  color: #333;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.add-project-btn {
+  background-color: #4da8da;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-project-btn:hover {
+  background-color: #357ab7;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ensures exactly 3 columns per row */
+  gap: 1.5rem; /* Spacing between grid items */
+  margin-top: 1rem;
+}
+
+/* Individual Card */
+.project-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.project-detail {
+  color: #555;
+  font-size: 0.9rem;
+  margin: 0.3rem 0;
+}
+
+/* Action Buttons Section */
+.project-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.action-btn {
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* View/Edit/Delete Buttons */
+.view-btn {
+  background-color: #50b432;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #ffaa00;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.action-btn:hover {
+  opacity: 0.8;
+}
+
+
+.manage-employee-link {
+  color: #4caf50;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.manage-employee-link:hover {
+  color: #45a049;
+}
+

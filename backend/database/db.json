@@ -1,0 +1,69 @@
+[
+    {
+      "name": "Project Alpha",
+      "skillsRequired": [
+        {
+          "name": "JavaScript",
+          "minCompetence": 80,
+          "weight": 1.5
+        },
+        {
+          "name": "Node.js",
+          "minCompetence": 75,
+          "weight": 1.2
+        },
+        {
+          "name": "MongoDB",
+          "minCompetence": 70,
+          "weight": 1.0
+        }
+      ],
+      "deadline": "2024-12-31T23:59:59.000Z",
+      "competenceMinimum": 75,
+      "status": "Open",
+      "createdBy": "60d71c4b8b29ae5b1501a8e1",
+      "employeesMatched": [
+        "60d71c4b8b29ae5b1501a8e2",
+        "60d71c4b8b29ae5b1501a8e3"
+      ],
+      "employeesApplied": [
+        "60d71c4b8b29ae5b1501a8e4"
+      ],
+      "employeesAssigned": [
+        "60d71c4b8b29ae5b1501a8e5"
+      ]
+    },
+    {
+      "name": "Project Beta",
+      "skillsRequired": [
+        {
+          "name": "React",
+          "minCompetence": 85,
+          "weight": 1.6
+        },
+        {
+          "name": "Redux",
+          "minCompetence": 80,
+          "weight": 1.3
+        },
+        {
+          "name": "CSS",
+          "minCompetence": 70,
+          "weight": 1.0
+        }
+      ],
+      "deadline": "2025-01-15T23:59:59.000Z",
+      "competenceMinimum": 80,
+      "status": "In Progress",
+      "createdBy": "60d71c4b8b29ae5b1501a8e6",
+      "employeesMatched": [
+        "60d71c4b8b29ae5b1501a8e7",
+        "60d71c4b8b29ae5b1501a8e8"
+      ],
+      "employeesApplied": [
+        "60d71c4b8b29ae5b1501a8e9"
+      ],
+      "employeesAssigned": []
+    }
+  ]
+  

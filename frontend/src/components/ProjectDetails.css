@@ -1,0 +1,85 @@
+/* General container */
+.project-container {
+  font-family: 'Arial', sans-serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content Section */
+.project-content {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Project Title */
+.project-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Project Description */
+.project-description {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Project Deadline */
+.project-deadline {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4da8da;
+  margin-bottom: 1rem;
+}
+
+/* Project Creator */
+.project-creator {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Skills Container */
+.skills-container {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.skills-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.skill-item {
+  font-size: 1rem;
+  color: #555;
+  margin-left: 1rem;
+}
+
+/* Error and Loading States */
+.error {
+  color: #e74c3c;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.loading {
+  color: #4da8da;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}

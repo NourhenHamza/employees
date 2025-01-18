@@ -1,0 +1,186 @@
+/* Main Container */
+.container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex
+  ;
+      flex-wrap: wrap;
+}
+
+/* Two-column layout */
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.container2item {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.itemm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.itempara1,
+.itempara2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.opt {
+  width: 30%;
+}
+
+.iteminput1,
+.iteminput2 {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gencodebtn,
+.addquesbtn {
+  width: 300px;
+}
+/* Buttons */
+
+.delquesbtn,
+.addopbtn,
+.createtestbtn,
+.delopbtn {
+  width: 20%;
+  margin-left: 20px;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: -16px;
+  transition: background-color 0.3s;
+}
+.createtestbtn {
+  position: absolute;
+    margin-top: -303px;
+    margin-left: -20%;
+}
+
+.gencodebtn {
+  background-color: #4a90e2;
+}
+
+.gencodebtn:hover {
+  background-color: #357abd;
+}
+
+.addquesbtn {
+  background-color: #5cb85c;
+}
+
+.addquesbtn:hover {
+  background-color: #4cae4c;
+}
+
+.delquesbtn,
+.delopbtn {
+  background-color: #d9534f;
+}
+
+.delquesbtn:hover,
+.delopbtn:hover {
+  background-color: #c9302c;
+}
+
+.addopbtn {
+  background-color: #f0ad4e;
+}
+
+.addopbtn:hover {
+  background-color: #ec971f;
+}
+
+.createtestbtn {
+  background-color: #0275d8;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+.addopbtn{
+  width: 30%;
+}
+.createtestbtn:hover {
+  background-color: #025aa5;
+}
+
+/* Security Options */
+.container2item p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container2item input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+
+
+/* Question Container */
+.quescontainer {
+  margin-top: 20px;
+}
+
+.quesitem {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.questxt {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.opinput {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Center Button */
+.starter {
+  text-align: center;
+}
+
+.createtestbtn {
+  width: 200px;
+}

@@ -1,0 +1,116 @@
+/* Container de l'ensemble de la vue */
+.employee-container {
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 10px; /* Ajout d'une bordure arrondie autour du container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Liste des employés */
+  .employee-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center; /* Centrer les cartes des employés */
+    margin-top: 20px;
+  }
+  
+  /* Carte d'un employé */
+  .employee-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation au survol */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .employee-card:hover {
+    transform: translateY(-10px); /* Effet de levée de la carte au survol */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Ombre plus marquée au survol */
+  }
+  
+  /* Avatar de l'employé */
+  .employee-avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    border: 3px solid #4CAF50; /* Bordure verte autour de l'avatar */
+  }
+  
+  .employee-info {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Titre du nom de l'employé */
+  .employee-info h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Détails (Email, Téléphone, etc.) */
+  .employee-info p {
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  /* Mise en gras des labels */
+  .employee-info strong {
+    font-weight: 600;
+    color: #4CAF50; /* Couleur verte pour les labels */
+  }
+  
+  /* Bouton "Retour" */
+  .back-btn {
+    margin-bottom: 25px;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    display: inline-block;
+  }
+  
+  .back-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .back-btn:focus {
+    outline: none;
+  }
+  
+  /* Titre principal (H1) */
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Effet de texte pour rendre le titre plus élégant */
+  h1::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #4CAF50;
+    margin: 0 auto 15px;
+  }
+  
